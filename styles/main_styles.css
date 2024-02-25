@@ -359,7 +359,7 @@ section {
 }
 
 .main_nav ul li .dane {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -375,7 +375,7 @@ section {
 }
 .logo_container {
   position: absolute;
-  top: 1px;
+  top: 0;
   left: 15px;
   width: 216px;
   height: 177px;
@@ -412,7 +412,8 @@ section {
   background: #ffd700;
 }
 .logo {
-  margin-top: 27px;
+  margin-top: 5px;
+  margin-right: 27px;
 }
 .logo span {
   color: #ffd700;
@@ -448,8 +449,11 @@ section {
   color: #8f8e8e;
   padding-left: 3px;
   margin-top: 2px;
+  /* text-transform: uppercase; */
 }
-
+.logo_footer{
+  flex-direction: column !important;
+}
 /*********************************
 4. Menu
 *********************************/
