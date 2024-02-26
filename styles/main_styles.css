@@ -334,6 +334,7 @@ section {
 .header_content {
   width: 100%;
   height: 103px;
+  align-items: flex-end!important;
 }
 .header.scrolled .header_content {
   height: 80px;
@@ -363,6 +364,11 @@ section {
   font-weight: 600;
 }
 
+.sm {
+  margin-top: 55px;
+  display: none;
+}
+
 /*********************************
 3.3 Logo
 *********************************/
@@ -377,7 +383,7 @@ section {
   position: absolute;
   top: 0;
   left: 15px;
-  width: 216px;
+  width: 300px;
   height: 177px;
   background: #ffffff;
   box-shadow: 0px 31px 29px rgba(0, 0, 0, 0.09);
@@ -401,7 +407,10 @@ section {
 .logo_content {
   width: 100%;
   height: 100%;
-  padding-left: 36px;
+  display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .logo_line {
   position: absolute;
@@ -413,7 +422,6 @@ section {
 }
 .logo {
   margin-top: 5px;
-  margin-right: 27px;
 }
 .logo span {
   color: #ffd700;
@@ -426,6 +434,7 @@ section {
   font-weight: 500;
   color: #283290;
   line-height: 0.75;
+  text-align: end;
 }
 .logo_box {
   display: inline-block;
@@ -444,11 +453,12 @@ section {
   margin-left: 1px;
 }
 .logo_sub {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
   color: #8f8e8e;
-  padding-left: 3px;
+  /* padding-left: 3px; */
   margin-top: 2px;
+  text-align: end;
   /* text-transform: uppercase; */
 }
 .logo_footer{
@@ -593,7 +603,7 @@ section {
 
 .home {
   width: 100%;
-  height: 900px;
+  height: 600px;
 }
 .home_slider_container {
   width: 100%;
@@ -661,14 +671,13 @@ section {
   padding-bottom: 35px;
 }
 .box_col {
-  margin-top: -59px;
+  margin-top: -209px;
 }
 .box {
   width: 100%;
   height: 287px;
   background: #283290;
   padding-left: 42px;
-  padding-top: 29px;
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -ms-transition: all 200ms ease;
@@ -698,7 +707,6 @@ section {
   color: #ffffff;
 }
 .working_hours {
-  padding-top: 29px;
   padding-right: 60px;
 }
 .working_hours_list {
@@ -751,8 +759,8 @@ section {
 .about {
   width: 100%;
   background: #ffffff;
-  padding-top: 92px;
-  padding-bottom: 92px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .about_text {
   margin-top: 34px;
@@ -854,8 +862,8 @@ section {
 .services {
   width: 100%;
   background: #ffffff;
-  padding-top: 95px;
-  padding-bottom: 65px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .services_row {
   margin-top: 95px;
@@ -1006,14 +1014,20 @@ section {
 .footer {
   width: 100%;
 }
+
+.footer-row {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
 .footer_container {
   width: 100%;
   background: #060b3a;
   padding-bottom: 77px;
 }
 .footer_logo_container {
-  width: 100%;
-  height: 157px;
+  width: 300px;
+  height: 177px;
   background: #ffffff;
 }
 .footer_logo_container::after {
@@ -1031,7 +1045,7 @@ section {
   height: 100%;
 }
 .footer_logo_container .logo_content {
-  display: inline-block;
+  display: flex;
   padding-left: 0;
   width: auto;
   height: auto;
@@ -1150,4 +1164,12 @@ section {
 }
 .footer_social ul li a i:hover {
   color: #ffffff;
+}
+
+.map {
+  margin: 30px;
+}
+
+.map:last-child {
+  margin-right: 0;
 }

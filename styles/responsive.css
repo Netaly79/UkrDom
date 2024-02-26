@@ -84,7 +84,11 @@
   .main_nav {
     display: none;
   }
-  .logo_container {
+  .sm {
+    display: inline;
+  }
+  .logo_container,
+  .footer_logo_container {
     width: 181px;
   }
   .logo_content {
@@ -192,7 +196,8 @@
   .top_bar {
     display: none;
   }
-  .logo_container {
+  .logo_container,
+  .footer_logo_container {
     height: 127px;
   }
   .logo {
@@ -237,7 +242,8 @@
   .hamburger i {
     font-size: 20px;
   }
-  .logo_container {
+  .logo_container,
+  .footer_logo_container {
     width: 141px;
     height: 77px;
   }
@@ -308,6 +314,10 @@
   }
   .cta_content h2 {
     font-size: 28px;
+  }
+
+  .footer-row {
+    flex-wrap: wrap;
   }
 }
 
