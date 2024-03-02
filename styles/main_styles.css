@@ -227,7 +227,7 @@ section {
   -o-transition: all 400ms cubic-bezier(0.33, 0.68, 0.59, 0.99);
   transition: all 400ms cubic-bezier(0.33, 0.68, 0.59, 0.99);
 }
-.button a {
+.button p {
   display: block;
   position: relative;
   line-height: 51px;
@@ -242,7 +242,7 @@ section {
 .button:hover::after {
   height: 100%;
 }
-.button:hover a {
+.button:hover p {
   color: #ffffff !important;
 }
 .section_title {
@@ -462,6 +462,12 @@ section {
 }
 .logo_footer {
   flex-direction: column !important;
+}
+
+.house {
+  vertical-align: baseline;
+  margin-left: 5px;
+  width: 27px;
 }
 /*********************************
 4. Menu
@@ -788,6 +794,33 @@ section {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 95%;
+  margin-left: auto;
+}
+
+.course {
+  width: 40%;
+  margin-left: 20px; /* Space between the bullet and the text */
+  position: relative;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.course::before {
+  content: ""; /* This pseudo-element creates the bullet */
+  display: inline-block;
+  width: 22px; /* Width of the bullet */
+  height: 22px; /* Height of the bullet */
+  background-image: url('../images/house.svg'); /* Image for the bullet */
+  background-size: contain; /* Ensure the image fits inside the bullet space */
+  position: absolute;
+  left: -30px; /* Positioning the bullet to the left of the text */
+  top: 3px; /* Adjust the bullet vertically */
 }
 
 /*********************************

@@ -181,3 +181,16 @@ $(document).ready(function () {
     });
   }
 });
+
+(() => {
+  const refs = {
+    openBtn: document.querySelector(".about_button"),
+    modal: document.querySelector(".more-block"),
+  };
+
+  refs.openBtn.addEventListener("click", toggleModal);
+
+  function toggleModal() {
+    refs.modal.classList.toggle("is-hidden");
+  }
+})();
