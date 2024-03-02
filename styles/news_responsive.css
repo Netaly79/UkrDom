@@ -142,6 +142,10 @@
     margin-left: -5px;
     margin-top: 15px;
   }
+
+.logo_container, .footer_logo_container {
+    width: 181px;
+}
 }
 
 /************
