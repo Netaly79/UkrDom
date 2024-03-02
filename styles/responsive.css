@@ -216,138 +216,142 @@
   .cta_content h2 {
     font-size: 36px;
   }
-}
 
-/************
+  .course {
+    width: 100%;
+  }
+
+  /************
 11. 575px
 ************/
 
-@media only screen and (max-width: 575px) {
-  p {
-    font-size: 13px;
-  }
-  .header.scrolled {
-    top: 0px !important;
-  }
-  .header_content,
-  .header.scrolled .header_content {
-    height: 60px;
-  }
-  .header.scrolled .logo_container {
-    top: 0;
-  }
-  .header.scrolled .logo_container {
-    height: 77px;
-  }
-  .hamburger i {
-    font-size: 20px;
-  }
-  .logo_container,
-  .footer_logo_container {
-    width: 141px;
-    height: 77px;
-  }
-  .logo_content {
-    padding-left: 20px;
-  }
-  .logo_text {
-    font-size: 16px;
-  }
-  .logo_box {
-    width: 12px;
-    height: 12px;
-    line-height: 12px;
-    font-size: 12px;
-  }
-  .logo_sub {
-    font-size: 10px;
-    padding-left: 1px;
-  }
-  .menu {
-    top: 90px;
-  }
-  .menu_close_container {
-    top: 20px;
-    right: 20px;
-  }
-  .home {
-    height: 100vh;
-  }
-  .home_content {
-    top: calc(50% + 34px);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  .home_title h1 {
-    font-size: 36px;
-  }
-  .home_text p {
-    font-size: 13px;
-  }
-  .menu_container {
-    width: 100vw;
-    right: -100vw;
-  }
-  .menu_item a {
-    font-size: 20px;
-  }
-  .section_title h2 {
-    font-size: 24px;
-  }
-  .button {
-    height: 41px;
-  }
-  .button a {
-    font-size: 11px;
-    line-height: 41px;
-    padding-left: 29px;
-    padding-right: 34px;
-  }
-  .box {
-    padding-left: 25px;
-  }
-  .working_hours {
-    padding-right: 30px;
-  }
-  .cta_content h2 {
-    font-size: 28px;
+  @media only screen and (max-width: 575px) {
+    p {
+      font-size: 13px;
+    }
+    .header.scrolled {
+      top: 0px !important;
+    }
+    .header_content,
+    .header.scrolled .header_content {
+      height: 60px;
+    }
+    .header.scrolled .logo_container {
+      top: 0;
+    }
+    .header.scrolled .logo_container {
+      height: 77px;
+    }
+    .hamburger i {
+      font-size: 20px;
+    }
+    .logo_container,
+    .footer_logo_container {
+      width: 141px;
+      height: 77px;
+    }
+    .logo_content {
+      padding-left: 20px;
+    }
+    .logo_text {
+      font-size: 16px;
+    }
+    .logo_box {
+      width: 12px;
+      height: 12px;
+      line-height: 12px;
+      font-size: 12px;
+    }
+    .logo_sub {
+      font-size: 10px;
+      padding-left: 1px;
+    }
+    .menu {
+      top: 90px;
+    }
+    .menu_close_container {
+      top: 20px;
+      right: 20px;
+    }
+    .home {
+      height: 100vh;
+    }
+    .home_content {
+      top: calc(50% + 34px);
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    .home_title h1 {
+      font-size: 36px;
+    }
+    .home_text p {
+      font-size: 13px;
+    }
+    .menu_container {
+      width: 100vw;
+      right: -100vw;
+    }
+    .menu_item a {
+      font-size: 20px;
+    }
+    .section_title h2 {
+      font-size: 24px;
+    }
+    .button {
+      /* height: 41px; */
+    }
+    .button a {
+      font-size: 11px;
+      line-height: 41px;
+      padding-left: 29px;
+      padding-right: 34px;
+    }
+    .box {
+      padding-left: 25px;
+    }
+    .working_hours {
+      padding-right: 30px;
+    }
+    .cta_content h2 {
+      font-size: 28px;
+    }
+
+    .footer-row {
+      flex-wrap: wrap;
+    }
   }
 
-  .footer-row {
-    flex-wrap: wrap;
-  }
-}
-
-/************
+  /************
 11. 539px
 ************/
 
-@media only screen and (max-width: 539px) {
-}
+  @media only screen and (max-width: 539px) {
+  }
 
-/************
+  /************
 12. 480px
 ************/
 
-@media only screen and (max-width: 480px) {
-}
+  @media only screen and (max-width: 480px) {
+  }
 
-/************
+  /************
 13. 479px
 ************/
 
-@media only screen and (max-width: 479px) {
-  .home_title h1 {
-    font-size: 28px;
+  @media only screen and (max-width: 479px) {
+    .home_title h1 {
+      font-size: 28px;
+    }
   }
-}
 
-/************
+  /************
 14. 400px
 ************/
 
-@media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 400px) {
+  }
 }

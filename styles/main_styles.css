@@ -366,6 +366,8 @@ section {
 .sm {
   margin-top: 55px;
   display: none;
+  background-color: #ffffff;
+  padding: 10px;
 }
 
 /*********************************
