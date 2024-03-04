@@ -18,23 +18,26 @@ $(document).ready(function () {
 
   /* 
 
-	1. Vars and Inits
+  1. Vars and Inits
 
-	*/
+  */
 
   var header = $(".header");
   var hamb = $(".hamburger");
   var hambActive = false;
   var menuActive = false;
+  var dane = $(".dane");
 
   setHeader();
 
   $(window).on("resize", function () {
     setHeader();
+    setDane();
   });
 
   $(document).on("scroll", function () {
     setHeader();
+    setDane();
   });
 
   initMenu();
@@ -43,9 +46,9 @@ $(document).ready(function () {
 
   /* 
 
-	2. Set Header
+  2. Set Header
 
-	*/
+  */
 
   function setHeader() {
     if ($(window).scrollTop() > 100) {
@@ -56,10 +59,23 @@ $(document).ready(function () {
   }
 
   /* 
+ 
+   2. Set dane
+ 
+   */
 
-	3. Init Menu
+  function setDane() {
+    if ($(window).scrollTop() > 100) {
+      dane.addClass("scrolled_dane");
+    } else {
+      dane.removeClass("scrolled_dane");
+    }
+  }
+  /* 
 
-	*/
+  3. Init Menu
+
+  */
 
   function initMenu() {
     if ($(".hamburger").length) {
@@ -102,9 +118,9 @@ $(document).ready(function () {
 
   /* 
 
-	2. Init Home Slider
+  2. Init Home Slider
 
-	*/
+  */
 
   function initHomeSlider() {
     if ($(".home_slider").length) {
@@ -144,9 +160,9 @@ $(document).ready(function () {
 
   /* 
 
-	6. Init SVG
+  6. Init SVG
 
-	*/
+  */
 
   function initSvg() {
     jQuery("img.svg").each(function () {
