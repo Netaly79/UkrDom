@@ -212,6 +212,7 @@ section {
   background: #283290;
 }
 .button::after {
+  border-radius: 6px;
   display: block;
   position: absolute;
   left: 0;
@@ -337,9 +338,12 @@ section {
 .header.scrolled .header_content {
   height: 80px;
 }
+.dane{  position: absolute;
+  right: 0;
+  top:43%;
+}
 .dane.scrolled_dane {
-  position: fixed;
-  right: 9.5%;
+top: 48px;
 }
 .main_nav ul li {
   display: inline-block;
@@ -361,11 +365,6 @@ section {
   color: #272727;
 }
 
-.main_nav {
-  position: absolute;
-  top: 35%;
-  right: 0;
-}
 
 .main_nav ul li .dane {
   font-size: 24px;
@@ -807,6 +806,7 @@ align-items: center;
 }
 .about_button {
   margin-top: 20px;
+  border-radius: 6px;
 }
 .about_image {
   position: absolute;
