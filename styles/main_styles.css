@@ -667,6 +667,17 @@ section {
   margin-left: 3px;
 }
 
+.soc-icon {
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+}
+
+.icons-inst{
+  position: absolute;
+left: 36%;
+}
+
 /*********************************
 6. Boxes
 *********************************/
@@ -715,6 +726,7 @@ section {
 }
 .working_hours {
   padding-right: 60px;
+  position: relative;
 }
 .working_hours_list {
   margin-top: 40px;
@@ -818,7 +830,7 @@ section {
   display: inline-block;
   width: 22px; /* Width of the bullet */
   height: 22px; /* Height of the bullet */
-  background-image: url('../images/house.svg'); /* Image for the bullet */
+  background-image: url("../images/house.svg"); /* Image for the bullet */
   background-size: contain; /* Ensure the image fits inside the bullet space */
   position: absolute;
   left: -30px; /* Positioning the bullet to the left of the text */
