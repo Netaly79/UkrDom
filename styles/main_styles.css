@@ -338,13 +338,20 @@ section {
 .header.scrolled .header_content {
   height: 80px;
 }
-.dane{  position: absolute;
+.dane {
+  position: absolute;
   right: 0;
-  top:43%;
+  top: 43%;
 }
 .dane.scrolled_dane {
-top: 48px;
+  top: 48px;
 }
+
+.ul_nav {
+  margin-right: 15%;
+  height: 50%;
+}
+
 .main_nav ul li {
   display: inline-block;
 }
@@ -352,7 +359,7 @@ top: 48px;
   margin-left: 32px;
 }
 .main_nav ul li a {
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 500;
   color: #283290;
 }
@@ -364,7 +371,6 @@ top: 48px;
   font-size: 24px;
   color: #272727;
 }
-
 
 .main_nav ul li .dane {
   font-size: 24px;
@@ -674,16 +680,16 @@ top: 48px;
   margin-top: 34px;
   margin-left: 3px;
 }
-.soc-contener{
+.soc-contener {
   display: flex;
 }
 
-.soc-contener>div {
-display: flex;
-flex-direction: column;
-margin-bottom: 15px;
-margin-right: 50px;
-align-items: center;
+.soc-contener > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-right: 50px;
+  align-items: center;
 }
 
 .soc-icon {
