@@ -130,7 +130,7 @@
     font-size: 56px;
   }
   .boxes {
-    padding-top: 95px;
+    padding-top: 10%;
   }
   .box_col {
     margin-top: 0;
@@ -280,7 +280,8 @@
     right: 20px;
   }
   .home {
-    height: 100vh;
+    max-height: 50vh;
+    height: 300px;
   }
   .home_content {
     top: calc(50% + 34px);
