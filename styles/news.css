@@ -796,7 +796,6 @@ h1 {
 .gallery_img {
   display: block;
   width: 30%;
-  height: 400px;
   overflow: hidden;
   object-fit: cover;
 }
@@ -1169,6 +1168,3 @@ h1 {
   margin: 30px;
 }
 
-.map:last-child {
-  margin-right: 0;
-}
